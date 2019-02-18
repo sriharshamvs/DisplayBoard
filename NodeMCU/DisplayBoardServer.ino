@@ -52,7 +52,7 @@ void handleSave() {
 //------------------------------------------------
 void setup() {
   delay(1000);
-  Serial.begin(115200);
+  Serial.begin(9600);
   //Serial.println("");
   WiFi.mode(WIFI_AP);           //Only Access point
   WiFi.softAPConfig(local_IP, gateway, subnet);
